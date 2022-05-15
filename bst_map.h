@@ -8,9 +8,6 @@ using std::endl;
 
 template<typename Key, typename Value>
 class BSTMap {
-  // You may add functionality to the Node class if you want to, but you must
-  // not remove any functionality or change any variable/method names!
-  // Ask if you'd like to make a change and you're not sure if it is safe.
   struct Node {
     Key key;
     Value value;
@@ -79,7 +76,6 @@ public:
 		}
 	}
 
-  // You may change this method if you want.
   void print() const {
     print(root);
   }
